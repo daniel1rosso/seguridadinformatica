@@ -1,15 +1,15 @@
 from shodan import Shodan
 
-API_KEY = 'x0OJeuCt1I4sC2eoBuGkmNGpZhZekL3P'
+API_KEY = 'yLiKani57BJSRWs7hYnjUWGDi0Mlj8pl'
 api = Shodan(API_KEY)
 
 # 2-a
 #results = api.search('port: 5900 country:AR')
-# results = api.search('port:5900 country:AR has_screenshot:true')
+#results = api.search('port:5900 country:AR has_screenshot:true')
 
 # 2-b
-# results = api.search('webcamxp country:AR')
-# results = api.search('webcamxp country:AR has_screenshot:true')
+#results = api.search('webcamxp country:AR')
+#results = api.search('webcamxp country:AR has_screenshot:true')
 
 # 2-c
 #results = api.search('apache country:AR')
